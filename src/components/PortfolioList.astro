@@ -1,0 +1,30 @@
+---
+import PortfolioItem from './PortfolioItem.astro'
+
+const items = [
+  {
+    imageUrl: "/assets/images/portfolio-item-1.jpg",
+    title: "Proyecto 1",
+    description: "Descripción del proyecto 1.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    link: "https://example.com/project1",
+  },
+  {
+    imageUrl: "/assets/images/portfolio-item-2.jpg",
+    title: "Proyecto 2",
+    description: "Descripción del proyecto 2.",
+    tags: ["React", "Node.js", "MongoDB"],
+    link: "https://example.com/project2",
+  },
+  {
+    imageUrl: "/assets/images/portfolio-item-3.jpg",
+    title: "Proyecto 3",
+    description: "Descripción del proyecto 3.",
+    tags: ["WordPress", "PHP", "MySQL"],
+    link: "https://example.com/project3",
+  },
+]
+---
+<section class="portfolio-list">
+      <PortfolioItem/>
+</section>
